@@ -4,24 +4,24 @@ export function Depoimentos() {
   const depoimentos = [
     {
       id: 1,
-      nome: "Maria Silva",
-      cargo: "Empresária",
+      nome: "",
+      cargo: "",
       texto:
         "A Bignardi foi essencial para resolver meu caso de forma rápida e profissional. Recomendo para todos que precisam de um escritório sério e competente.",
       estrelas: 5,
     },
     {
       id: 2,
-      nome: "João Santos",
-      cargo: "Pessoa Física",
+      nome: "",
+      cargo: "",
       texto:
         "Excelente atendimento e resultado além das expectativas. Os advogados têm profundo conhecimento e tratam cada cliente com muita atenção.",
       estrelas: 5,
     },
     {
       id: 3,
-      nome: "Ana Costa",
-      cargo: "Diretora Executiva",
+      nome: "",
+      cargo: "",
       texto:
         "Parceria de longo prazo com a Bignardi. Sua assessoria jurídica é imprescindível para nossa empresa. Muito profissionais!",
       estrelas: 5,

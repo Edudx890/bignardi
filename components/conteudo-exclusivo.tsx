@@ -51,7 +51,7 @@ export function ConteudoExclusivo() {
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
-                <span className="text-foreground">Descontos em consultas</span>
+                <span className="text-foreground">Consultas profissionais</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
@@ -59,7 +59,7 @@ export function ConteudoExclusivo() {
               </li>
             </ul>
             <button className="w-full bg-secondary text-primary py-3 rounded-lg font-bold hover:bg-opacity-90 transition">
-              Torne-se Membro
+              Disponível em breve.
             </button>
           </div>
         </div>

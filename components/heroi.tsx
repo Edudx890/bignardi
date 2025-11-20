@@ -19,7 +19,7 @@ export function Heroi() {
     >
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          <span className="gradient-text">Dois irmãos. Uma aliança.</span>
+          <span className="gradient-text">Dois irmãos. Um objetivo.</span>
           <br />
           <span className="text-foreground">A sua defesa.</span>
         </h1>

@@ -3,7 +3,7 @@ export function SobreNos() {
     <section id="sobre" className="py-20 px-4 bg-primary">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-foreground">
-          <span className="border-b-4 border-secondary pb-2">Sobre Nós</span>
+          <span className="border-b-4 border-secondary pb-2">Advogados</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-16">
@@ -13,7 +13,7 @@ export function SobreNos() {
             </div>
             <h3 className="text-2xl font-bold mb-2 text-secondary">Dr. Victor Bignardi</h3>
             <p className="text-lg text-foreground">
-              Atua em áreas de direito do trabalho em defesa dos trabalhadores e auxiliando em normas gerais das empresas.
+              Profissional especializado em Direito do Trabalho, preparado para defender seus direitos.
             </p>
           </div>
 
@@ -23,7 +23,7 @@ export function SobreNos() {
             </div>
             <h3 className="text-2xl font-bold mb-2 text-secondary">Dr. Eduardo Bignardi</h3>
             <p className="text-lg text-foreground">
-              Especialista em Direito Civil e Empresarial, Eduardo traz mais de 15 anos de experiência em casos complexos.
+              Especialista em Direito Administrativo e Empresarial, Eduardo traz anos de experiência em casos complexos.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export function SobreNos() {
         <div className="mt-20 text-center max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-secondary">Nossa Filosofia</h3>
           <p className="text-lg leading-relaxed text-foreground">
-            Acreditamos que cada caso merece atenção única e estratégias personalizadas. Nossa abordagem combina conhecimento técnico com empatia, garantindo que nossos clientes se sintam protegidos e compreendidos em cada etapa do processo.
+            Acreditamos que cada caso merece atenção única e estratégias personalizadas. Nossa abordagem combina conhecimento técnico com empatia, garantindo que nossos clientes se sintam protegidos e compreendidos em cada etapa do processos, buscando alcançar seus objetivos.
           </p>
         </div>
       </div>

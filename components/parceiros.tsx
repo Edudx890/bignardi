@@ -7,7 +7,7 @@ export function Parceiros() {
     <section id="parceiros" className="py-20 px-4 bg-primary">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-foreground">
-          <span className="border-b-4 border-secondary pb-2">Parcerias e Associações</span>
+          <span className="border-b-4 border-secondary -pb2">Parcerias e Associações</span>
         </h2>
 
         <div className="flex justify-center">

@@ -66,8 +66,8 @@ export function Contato() {
               <div className="flex items-start gap-4">
                 <MapPin className="text-secondary mt-1 flex-shrink-0" size={24} />
                 <div>
-                  <h4 className="font-bold text-foreground">Endereço</h4>
-                  <p className="text-foreground/80">Av. Paulista, 1000 - São Paulo/SP</p>
+                  <h4 className="font-bold text-foreground">Endereço eletrônico</h4>
+                  <p className="text-foreground/80">veadvogado@gmail.com</p>
                 </div>
               </div>
 
@@ -75,17 +75,10 @@ export function Contato() {
                 <Phone className="text-secondary mt-1 flex-shrink-0" size={24} />
                 <div>
                   <h4 className="font-bold text-foreground">Telefone</h4>
-                  <p className="text-foreground/80">(11) 9999-9999</p>
+                  <p className="text-foreground/80">+55 (63) 9966-7700</p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <Mail className="text-secondary mt-1 flex-shrink-0" size={24} />
-                <div>
-                  <h4 className="font-bold text-foreground">E-mail</h4>
-                  <p className="text-foreground/80">contato@bignardi.adv.br</p>
-                </div>
-              </div>
             </div>
 
             <div className="mt-8">
