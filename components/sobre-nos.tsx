@@ -13,7 +13,7 @@ export function SobreNos() {
             </div>
             <h3 className="text-2xl font-bold mb-2 text-secondary">Dr. Victor Bignardi</h3>
             <p className="text-lg text-foreground">
-              Mestre em Direito Penal, Victor atua com destaque na defesa de clientes em situações jurídicas críticas.
+              Atua em áreas de direito do trabalho em defesa dos trabalhadores e auxiliando em normas gerais das empresas.
             </p>
           </div>
 
