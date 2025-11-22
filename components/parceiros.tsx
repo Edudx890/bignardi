@@ -18,6 +18,7 @@ export function Parceiros() {
             >
               <div className="w-24 h-24 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl font-bold text-secondary">{parceiro.nome.charAt(0)}</span>
+                <img src="/irmaos.bignardi.jpg" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-bold text-foreground mb-2">{parceiro.nome}</h3>
               <p className="text-secondary text-sm">{parceiro.descricao}</p>
