@@ -1,6 +1,6 @@
 export function Parceiros() {
   const parceiros = [
-    { id: 1, nome: "RUAH", descricao: "RUAH Assessoria, Consultoria e Comércio" },
+    { id: 1, nome: "", descricao: "" },
   ]
 
   return (
