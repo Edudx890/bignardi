@@ -20,7 +20,7 @@ export function Navegacao() {
               Início
             </a>
             <a href="#sobre" className="hover:text-secondary transition">
-              Sobre Nós
+              Advogados
             </a>
             <a href="#areas" className="hover:text-secondary transition">
               Áreas

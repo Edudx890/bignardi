@@ -9,7 +9,7 @@ export function SobreNos() {
         <div className="grid md:grid-cols-2 gap-16">
           <div className="flex flex-col items-center text-center">
             <div className="w-48 h-48 rounded-full overflow-hidden mb-6 bg-secondary/20">
-              <img src="/dr-victor-bignardi.jpg" alt="Dr. Victor Bignardi" className="w-full h-full object-cover" />
+              <img src="/victor.site.jpg" alt="Dr. Victor Bignardi" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-2xl font-bold mb-2 text-secondary">Dr. Victor Bignardi</h3>
             <p className="text-lg text-foreground">
