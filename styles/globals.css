@@ -202,3 +202,8 @@
 .border-secondary\/20 {
   border-color: rgba(255, 217, 0, 0.2);
 }
+
+
+.font-bold {
+  font-weight: 900 !important;
+}
