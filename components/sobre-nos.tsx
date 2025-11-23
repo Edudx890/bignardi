@@ -15,9 +15,8 @@ export function SobreNos() {
             <p className="text-lg text-foreground">
               Profissional especializado em Direito do Trabalho, preparado para defender seus direitos.
             </p>
-              <p className="text-lg text-foreground">
-              OAB/TO: 14000100
-            </p>
+            <br/>
+            <span className="gradient-text">OAB/TO: 14100</span>
           </div>
 
           <div className="flex flex-col items-center text-center">
