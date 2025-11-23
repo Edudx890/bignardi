@@ -12,7 +12,7 @@ export function Navegacao() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-secondary text-2xl font-bold">
-            Bignard
+            Bignardi
           </Link>
 
           <div className="hidden md:flex space-x-8 text-foreground">
