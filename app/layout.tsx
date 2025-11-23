@@ -7,7 +7,6 @@ export const metadata: Metadata = {
   title: "Bignardi Assessoria Jurídica - Consultoria de Excelência",
   description:
     "Escritório de advocacia especializado em Direito Civil, Penal, Consumidor, Imobiliário, Trabalhista e Empresarial.",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
