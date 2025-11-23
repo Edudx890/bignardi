@@ -202,13 +202,3 @@
 .border-secondary\/20 {
   border-color: rgba(255, 221, 35, 0.2);
 }
-
-
-
-
-@layer utilities {
-  .font-blond {
-    color: #ffd500 !important;
-    font-weight: 600;
-  }
-}
