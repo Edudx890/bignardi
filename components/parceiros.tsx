@@ -1,6 +1,6 @@
 export function Parceiros() {
   const parceiros = [
-    { id: 1, nome: "", descricao: "" },
+    { id: 1, nome: "", descricao: "Irmãos Bignardi" },
   ]
 
   return (
@@ -16,7 +16,7 @@ export function Parceiros() {
               key={parceiro.id}
               className="bg-primary border border-secondary/20 rounded-lg p-8 text-center hover:border-secondary transition w-full max-w-xs"
             >
-              <div className="w-24 h-24 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-4">
+              <div className="w-36 h-48 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl font-bold text-secondary">{parceiro.nome.charAt(0)}</span>
                 <img src="/irmaos.bignardi.jpg" className="w-full h-full object-cover" />
               </div>
