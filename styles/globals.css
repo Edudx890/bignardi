@@ -5,40 +5,40 @@
 
 @custom-variant dark (&:is(.dark *));
 
-:root {
-  /* Cores exatas do HTML Bignardi */
-  --background: #121212;
-  --foreground: #f5f5f5;
-  --primary: #121212;
-  --primary-foreground: #f5f5f5;
-  --secondary: #ffdd23; /* Alterada para #ffdd23 */
-  --secondary-foreground: #121212;
-  --light: #f5f5f5;
-  --card: #121212;
-  --card-foreground: #f5f5f5;
-  --accent: #ffdd23; /* Alterada para #ffdd23 */
-  --accent-foreground: #121212;
-  --muted: #999999;
-  --muted-foreground: #999999;
-  --destructive: #ef4444;
-  --destructive-foreground: #ffffff;
-  --border: #333333;
-  --input: #1a1a1a;
-  --ring: #ffdd23; /* Alterada para #ffdd23 */
-  --radius: 0.5rem;
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+:root
+ {
+    --background: #121212;
+    --foreground: #f5f5f5;
+    --primary: #121212;
+    --primary-foreground: #f5f5f5;
+    --secondary: #ffd500;
+    --secondary-foreground: #121212;
+    --light: #f5f5f5;
+    --card: #121212;
+    --card-foreground: #f5f5f5;
+    --accent: #ffd500;
+    --accent-foreground: #121212;
+    --muted: #999;
+    --muted-foreground: #999;
+    --destructive: #ef4444;
+    --destructive-foreground: #fff;
+    --border: #333;
+    --input: #1a1a1a;
+    --ring: #ffd500;
+    --radius: .5rem;
+    --chart-1: oklch(64.6% .222 41.116);
+    --chart-2: oklch(60% .118 184.704);
+    --chart-3: oklch(39.8% .07 227.392);
+    --chart-4: oklch(82.8% .189 84.429);
+    --chart-5: oklch(76.9% .188 70.08);
+    --sidebar: oklch(98.5% 0 0);
+    --sidebar-foreground: oklch(14.5% 0 0);
+    --sidebar-primary: oklch(20.5% 0 0);
+    --sidebar-primary-foreground: oklch(98.5% 0 0);
+    --sidebar-accent: oklch(97% 0 0);
+    --sidebar-accent-foreground: oklch(20.5% 0 0);
+    --sidebar-border: oklch(92.2% 0 0);
+    --sidebar-ring: oklch(70.8% 0 0);
 }
 
 .dark {
@@ -207,3 +207,9 @@
   font-weight: 900 !important;
   color: #ffdd23 !important;
 }
+
+
+.text-secondary {
+    color: #ffd500;
+}
+
