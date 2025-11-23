@@ -18,7 +18,7 @@ export function Heroi() {
       }}
     >
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-blond mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6">
           <span className="gradient-text">Dois irmãos. Um objetivo.</span>
           <br />
           <span className="text-foreground">A sua defesa.</span>
@@ -28,7 +28,7 @@ export function Heroi() {
         </p>
         <button
           onClick={scrollToContato}
-          className="bg-secondary text-primary px-8 py-3 rounded-full font-blond hover:bg-opacity-90 transition"
+          className="bg-secondary text-primary px-8 py-3 rounded-full font-bold hover:bg-opacity-90 transition"
         >
           Fale Conosco
         </button>

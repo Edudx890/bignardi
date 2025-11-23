@@ -31,7 +31,7 @@ export function Depoimentos() {
   return (
     <section id="depoimentos" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-5xl font-blond mb-16 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center">
           <span className="border-b-4 border-secondary pb-2">Depoimentos de Clientes</span>
         </h2>
 
@@ -47,7 +47,7 @@ export function Depoimentos() {
               </div>
               <p className="text-foreground/80 mb-6 leading-relaxed italic">"{depoimento.texto}"</p>
               <div>
-                <p className="font-blond text-foreground">{depoimento.nome}</p>
+                <p className="font-bold text-foreground">{depoimento.nome}</p>
                 <p className="text-sm text-secondary">{depoimento.cargo}</p>
               </div>
             </div>

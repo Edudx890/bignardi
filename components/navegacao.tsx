@@ -11,7 +11,7 @@ export function Navegacao() {
     <nav className="border-b border-secondary/20 sticky top-0 z-50 bg-primary/90 backdrop-blur-sm">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-secondary text-2xl font-blond">
+          <Link href="/" className="text-secondary text-2xl font-bold">
             Bignardi
           </Link>
 
