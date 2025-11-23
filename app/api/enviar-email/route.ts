@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // Email de destino - altere para o email que deseja receber
-const EMAIL_DESTINO = 'contato@bignardi.adv.br'
+const EMAIL_DESTINO = 'dudugb890@gmail.com'
 
 export async function POST(request: NextRequest) {
   try {
