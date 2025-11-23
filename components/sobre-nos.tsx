@@ -13,7 +13,7 @@ export function SobreNos() {
             </div>
             <h3 className="text-2xl font-bold mb-2">Dr. Victor Bignardi</h3>
             <p className="text-lg text-foreground">
-              Profissional especializado em Direito do Trabalho, preparado para defender seus direitos.
+              Profissional especializado em Direito do Trabalho, preparado para defender seus interesses.
             </p>
             <br/>
             <span className="gradient-text">OAB/TO: 14100</span>
