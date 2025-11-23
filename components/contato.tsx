@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState } from "react"
-import { MapPin, Phone, Mail } from 'lucide-react'
+import { MapPin, Phone, Mail } from "lucide-react"
 
 export function Contato() {
   const [formData, setFormData] = useState({
@@ -22,10 +22,10 @@ export function Contato() {
     setMensagemErro("")
 
     try {
-      const response = await fetch('/api/enviar-email', {
-        method: 'POST',
+      const response = await fetch("/api/enviar-email", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       })
@@ -33,10 +33,10 @@ export function Contato() {
       const dados = await response.json()
 
       if (!response.ok) {
-        throw new Error(dados.erro || 'Erro ao enviar email')
+        throw new Error(dados.erro || "Erro ao enviar email")
       }
 
-      setMensagemSucesso('Email enviado com sucesso! Entraremos em contato em breve.')
+      setMensagemSucesso("Email enviado com sucesso! Entraremos em contato em breve.")
       setFormData({
         nome: "",
         email: "",
@@ -44,9 +44,7 @@ export function Contato() {
         mensagem: "",
       })
     } catch (erro) {
-      setMensagemErro(
-        erro instanceof Error ? erro.message : 'Erro ao enviar email'
-      )
+      setMensagemErro(erro instanceof Error ? erro.message : "Erro ao enviar email")
     } finally {
       setEnviando(false)
     }
@@ -61,7 +59,7 @@ export function Contato() {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-secondary">Informações</h3>
+            <h3 className="text-2xl font-bold mb-6">Informações</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <MapPin className="text-secondary mt-1 flex-shrink-0" size={24} />
@@ -82,7 +80,7 @@ export function Contato() {
             </div>
 
             <div className="mt-8">
-              <h3 className="text-2xl font-bold mb-6 text-secondary">Horário de Atendimento</h3>
+              <h3 className="text-2xl font-bold mb-6">Horário de Atendimento</h3>
               <p className="text-foreground/80">Segunda a Sexta: 09h às 18h</p>
               <p className="text-foreground/80">Sábado: 09h às 12h</p>
             </div>
@@ -160,9 +158,7 @@ export function Contato() {
               )}
 
               {mensagemErro && (
-                <div className="bg-red-500/20 border border-red-500 text-foreground p-4 rounded-lg">
-                  {mensagemErro}
-                </div>
+                <div className="bg-red-500/20 border border-red-500 text-foreground p-4 rounded-lg">{mensagemErro}</div>
               )}
             </form>
           </div>
