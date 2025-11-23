@@ -16,7 +16,7 @@
   --light: #f5f5f5;
   --card: #121212;
   --card-foreground: #f5f5f5;
-  --accent: #ffc400;
+  --accent: #ffd400;
   --accent-foreground: #121212;
   --muted: #999999;
   --muted-foreground: #999999;
@@ -24,7 +24,7 @@
   --destructive-foreground: #ffffff;
   --border: #333333;
   --input: #1a1a1a;
-  --ring: #ffc400;
+  --ring:  #ffd400;
   --radius: 0.5rem;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
@@ -48,12 +48,12 @@
   --card-foreground: #f5f5f5;
   --primary: #121212;
   --primary-foreground: #f5f5f5;
-  --secondary: #ffc400;
+  --secondary: #ffd400;
   --secondary-foreground: #121212;
   --light: #f5f5f5;
   --muted: #999999;
   --muted-foreground: #999999;
-  --accent: #ffc400;
+  --accent: #ffd400;
   --accent-foreground: #121212;
   --input: #1a1a1a;
   --border: #333333;
