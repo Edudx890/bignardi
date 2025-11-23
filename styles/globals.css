@@ -204,7 +204,12 @@
 }
 
 
-.font-bold {
+.font-blond {
+  font-weight: 900 !important;
+  color: #ffdd23 !important;
+}
+
+.font-blond {
   font-weight: 900 !important;
   color: #ffd000 !important;
 }

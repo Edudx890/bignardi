@@ -34,7 +34,7 @@ export function Servicos({ servicos }: ServicosProps) {
     <section id="servicos" className="py-20 bg-primary/90 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">Áreas em Destaque</h2>
+          <h2 className="text-3xl md:text-4xl font-blond mb-4 text-foreground">Áreas em Destaque</h2>
           <p className="text-lg text-foreground/60">Conheça as principais áreas em que atuamos</p>
         </div>
 
@@ -45,7 +45,7 @@ export function Servicos({ servicos }: ServicosProps) {
               className="bg-primary border border-secondary/20 p-8 rounded-lg hover:border-secondary transition"
             >
               <div className="text-secondary mb-4">{icones[servico.icone] || icones["briefcase"]}</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">{servico.titulo}</h3>
+              <h3 className="text-xl font-blond mb-4 text-foreground">{servico.titulo}</h3>
               <p className="text-foreground/80">{servico.descricao}</p>
             </div>
           ))}
@@ -55,7 +55,7 @@ export function Servicos({ servicos }: ServicosProps) {
           <div className="text-center mt-8">
             <Link
               href="/servicos"
-              className="bg-secondary text-primary px-8 py-3 rounded-lg font-bold hover:bg-opacity-90 transition inline-block"
+              className="bg-secondary text-primary px-8 py-3 rounded-lg font-blond hover:bg-opacity-90 transition inline-block"
             >
               Ver Todas as Áreas
             </Link>

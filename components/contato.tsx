@@ -55,18 +55,18 @@ export function Contato() {
   return (
     <section id="contato" className="py-20 bg-primary/90 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-foreground">
+        <h2 className="text-3xl md:text-5xl font-blond mb-16 text-center text-foreground">
           <span className="border-b-4 border-secondary pb-2">Entre em Contato</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-secondary">Informações</h3>
+            <h3 className="text-2xl font-blond mb-6 text-secondary">Informações</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <MapPin className="text-secondary mt-1 flex-shrink-0" size={24} />
                 <div>
-                  <h4 className="font-bold text-foreground">Endereço eletrônico</h4>
+                  <h4 className="font-blond text-foreground">Endereço eletrônico</h4>
                   <p className="text-foreground/80">veadvogado@gmail.com</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export function Contato() {
               <div className="flex items-start gap-4">
                 <Phone className="text-secondary mt-1 flex-shrink-0" size={24} />
                 <div>
-                  <h4 className="font-bold text-foreground">Telefone</h4>
+                  <h4 className="font-blond text-foreground">Telefone</h4>
                   <p className="text-foreground/80">+55 (63) 9966-7700</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export function Contato() {
             </div>
 
             <div className="mt-8">
-              <h3 className="text-2xl font-bold mb-6 text-secondary">Horário de Atendimento</h3>
+              <h3 className="text-2xl font-blond mb-6 text-secondary">Horário de Atendimento</h3>
               <p className="text-foreground/80">Segunda a Sexta: 09h às 18h</p>
               <p className="text-foreground/80">Sábado: 09h às 12h</p>
             </div>
@@ -148,7 +148,7 @@ export function Contato() {
               <button
                 type="submit"
                 disabled={enviando}
-                className="w-full bg-secondary text-primary py-3 rounded-lg font-bold hover:bg-opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-secondary text-primary py-3 rounded-lg font-blond hover:bg-opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {enviando ? "Enviando..." : "Enviar Mensagem"}
               </button>

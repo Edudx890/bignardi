@@ -62,7 +62,7 @@ export function AreasAtuacao({ servicos }: AreasAtuacaoProps) {
   return (
     <section id="areas" className="py-20 bg-primary/90 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-foreground">
+        <h2 className="text-3xl md:text-5xl font-blond mb-16 text-center text-foreground">
           <span className="border-b-4 border-secondary pb-2">Áreas de Atuação</span>
         </h2>
 
@@ -73,7 +73,7 @@ export function AreasAtuacao({ servicos }: AreasAtuacaoProps) {
               className="bg-primary border border-secondary/20 p-8 rounded-lg hover:border-secondary transition"
             >
               <div className="text-secondary mb-4">{icones[area.icone] || icones["briefcase"]}</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">{area.titulo}</h3>
+              <h3 className="text-xl font-blond mb-4 text-foreground">{area.titulo}</h3>
               <p className="text-foreground/80">{area.descricao}</p>
             </div>
           ))}
