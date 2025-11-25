@@ -25,7 +25,7 @@ export function SobreNos() {
             </div>
             <h3 className="text-2xl font-bold mb-2">Dr. Eduardo Bignardi</h3>
             <p className="text-lg text-foreground">
-              Especialista em Direito Administrativo e Empresarial, Eduardo traz anos de experiência em casos complexos.
+              Estrategista em Formação. Articulador Sênior. Convertendo a vivência em vitórias, com assessoria direta nos bastidores do Direito.
             </p>
           </div>
         </div>
